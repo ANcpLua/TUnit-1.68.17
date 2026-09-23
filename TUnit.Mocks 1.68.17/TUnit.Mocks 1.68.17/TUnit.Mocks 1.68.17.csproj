@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+
+        <!-- Experimental internals access: internal types of the assemblies listed under
+             TUnitMocksInternalsAccess become nameable and mockable in this project,
+             with zero InternalsVisibleTo required from the target assembly. -->
+        <TUnitMocksExperimentalInternalsAccess>true</TUnitMocksExperimentalInternalsAccess>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="TUnit" Version="1.68.17"/>
+        <PackageReference Include="TUnit.Mocks" Version="1.68.17"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\VendorSdk\VendorSdk.csproj"/>
+        <TUnitMocksInternalsAccess Include="VendorSdk"/>
+    </ItemGroup>
+
+</Project>

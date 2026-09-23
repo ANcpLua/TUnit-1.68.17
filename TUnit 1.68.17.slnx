@@ -1,0 +1,32 @@
+<Solution>
+  <Folder Name="/Basics/">
+    <Project Path="TUnit 1.68.17/TUnit 1.68.17/TUnit 1.68.17.csproj" />
+    <Project Path="TUnit 1.68.17/WebApp/WebApp.csproj" />
+    <Project Path="TUnit.Mixed 1.68.17/TUnit.Mixed 1.68.17.csproj" />
+  </Folder>
+  <Folder Name="/Build/">
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Folder Name="/Docs/">
+    <File Path="README.md" />
+    <File Path="API.md" />
+    <File Path="CLAUDE.md" />
+  </Folder>
+  <Folder Name="/Mocks/">
+    <File Path="TUnit.Mocks 1.68.17/README.md" />
+    <Project Path="TUnit.Mocks 1.68.17/TUnit.Mocks 1.68.17/TUnit.Mocks 1.68.17.csproj" />
+    <Project Path="TUnit.Mocks 1.68.17/VendorSdk/VendorSdk.csproj" />
+  </Folder>
+  <Folder Name="/Patterns/">
+    <File Path="TUnit.Patterns 1.68.17/README.md" />
+    <Project Path="TUnit.Patterns 1.68.17/TUnit.Patterns 1.68.17.csproj" />
+    <Project Path="TUnit.Patterns.Policies 1.68.17/TUnit.Patterns.Policies 1.68.17.csproj" />
+  </Folder>
+  <Folder Name="/Patterns/Advanced/">
+    <File Path="AdvancedPatterns/README.md" />
+    <Project Path="AdvancedPatterns/AdvancedPatterns.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Playwright/">
+    <Project Path="TUnit.Playwright 1.68.17/TUnit.Playwright 1.68.17.csproj" />
+  </Folder>
+</Solution>

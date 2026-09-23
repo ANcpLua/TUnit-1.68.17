@@ -1,0 +1,10 @@
+artifacts/
+**/bin/
+**/obj/
+**/TestResults/
+**/playwright-videos/
+*.user
+.DS_Store
+.idea/
+.vs/
+CLAUDE.local.md
